@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jet20/AngularjsLab/issues"
   },
-  "homepage": "https://github.com/jet20/AngularjsLab#readme"
+  "homepage": "https://github.com/jet20/AngularjsLab#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
