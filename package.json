@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-lab",
+  "version": "1.0.0",
+  "description": "AngularJS Lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jet20/AngularjsLab.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "jet2000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jet20/AngularjsLab/issues"
+  },
+  "homepage": "https://github.com/jet20/AngularjsLab#readme"
+}
