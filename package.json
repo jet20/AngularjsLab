@@ -20,6 +20,7 @@
   "dependencies": {
     "angular": "^1.6.10",
     "angular-ui-bootstrap": "^2.5.6",
+    "bootstrap": "^3.3.7",
     "express": "^4.16.3",
     "jquery": "2"
   },
