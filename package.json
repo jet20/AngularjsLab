@@ -21,5 +21,8 @@
   "homepage": "https://github.com/jet20/AngularjsLab#readme",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
   }
 }
