@@ -19,7 +19,8 @@
   "homepage": "https://github.com/jet20/AngularjsLab#readme",
   "dependencies": {
     "angular-ui-bootstrap": "^2.5.6",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "jquery": "2"
   },
   "devDependencies": {
     "browser-sync": "^2.24.4",
