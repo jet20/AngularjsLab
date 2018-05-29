@@ -3,10 +3,42 @@
 
 <head>
     <title>Alert</title>
+    <link rel="stylesheet" type="text/css" href="/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/lib/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="/lib/angular-ui-bootstrap/dist/ui-bootstrap-csp.css">
 </head>
 
 <body>
+	<div ng-app="app" ng-controller="ctrl">
+		<div uib-alert ng-repeat="alert in alerts" ng-class="getAlertClass(alert)" close="closeAlert($index)">{{alert.msg}}</div>
+
+		<button class="btn btn-primary" ng-click="addAlert()">增加警告</button>
+	</div>
+
+
+    <script src="/lib/jquery/dist/jquery.js"></script>
     <script src="/lib/angular/angular.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/lib/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+    <script src="/lib/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+    <script>
+    	var app = angular.module('app', ['ui-bootstrap']);
+    	app.controller('ctrl', ['$scope', function($scope){
+    		$scope.alerts = [];
+
+    		$scope.getAlertClass = function(alert) {
+    			return 'alert-' + (alert.type || 'warning');
+    		}
+
+    		$scope.addAlert = function() {
+    			$scope.alerts.push({msg: '这是新的警告'});
+    		}
+
+    		$scope.closeAlert = function(index) {
+    			$scope.alerts.splice(index, 1);
+    		}
+    	}]);
+    </script>
 </body>
 
 </html>
