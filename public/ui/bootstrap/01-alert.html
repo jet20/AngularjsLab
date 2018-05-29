@@ -9,35 +9,41 @@
 </head>
 
 <body>
-	<div ng-app="app" ng-controller="ctrl">
-		<div uib-alert ng-repeat="alert in alerts" ng-class="getAlertClass(alert)" close="closeAlert($index)">{{alert.msg}}</div>
-
-		<button class="btn btn-primary" ng-click="addAlert()">增加警告</button>
-	</div>
-
-
+    <div class="container">
+        <div ng-app="app" ng-controller="ctrl">
+            <div uib-alert ng-repeat="alert in alerts" ng-class="getAlertClass(alert)" close="closeAlert($index)">{{alert.msg}}</div>
+            <button class="btn btn-primary" ng-click="addAlert()">增加警告</button>
+        </div>
+    </div>
     <script src="/lib/jquery/dist/jquery.js"></script>
     <script src="/lib/angular/angular.js"></script>
     <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/lib/angular-animate/angular-animate.js"></script>
+    <script src="/lib/angular-sanitize/angular-sanitize.js"></script>
     <script src="/lib/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
     <script src="/lib/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
     <script>
-    	var app = angular.module('app', ['ui-bootstrap']);
-    	app.controller('ctrl', ['$scope', function($scope){
-    		$scope.alerts = [];
+    var app = angular.module('app', ['ngAnimate', 'ngSanitize', 'ui.bootstrap']);
+    app.controller('ctrl', ['$scope', function($scope) {
+        $scope.alerts = [
+        	{msg: '成功！很好地完成了提交。', type: 'success'},
+        	{msg: '信息！请注意这个信息。', type: 'info'},
+        	{msg: '警告！请不要提交。', type: 'warning'},
+        	{msg: '错误！请进行一些更改。', type: 'danger'}
+        ];
 
-    		$scope.getAlertClass = function(alert) {
-    			return 'alert-' + (alert.type || 'warning');
-    		}
+        $scope.getAlertClass = function(alert) {
+            return 'alert-' + (alert.type || 'warning');
+        }
 
-    		$scope.addAlert = function() {
-    			$scope.alerts.push({msg: '这是新的警告'});
-    		}
+        $scope.addAlert = function() {
+            $scope.alerts.push({ msg: '这是新的警告' });
+        }
 
-    		$scope.closeAlert = function(index) {
-    			$scope.alerts.splice(index, 1);
-    		}
-    	}]);
+        $scope.closeAlert = function(index) {
+            $scope.alerts.splice(index, 1);
+        }
+    }]);
     </script>
 </body>
 
