@@ -4,12 +4,10 @@
   "description": "AngularJS Lab",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jet20/AngularjsLab.git"
-  },
+  "repository": "git+https://github.com/jet20/AngularjsLab.git",
   "keywords": [
     "angularjs"
   ],
@@ -20,6 +18,7 @@
   },
   "homepage": "https://github.com/jet20/AngularjsLab#readme",
   "dependencies": {
+    "angular-ui-bootstrap": "^2.5.6",
     "express": "^4.16.3"
   },
   "devDependencies": {
@@ -34,5 +33,6 @@
     "jshint": "^2.9.5",
     "less": "^3.0.4",
     "uglify-js": "^3.3.27"
-  }
+  },
+  "private": true
 }
