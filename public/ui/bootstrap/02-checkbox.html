@@ -11,8 +11,14 @@
 <body>
     <div class="container">
         <div ng-app="app" ng-controller="ctrl">
-            <div uib-alert ng-repeat="alert in alerts" ng-class="'alert-' + (alert.type || 'warning')" close="closeAlert($index)">{{alert.msg}}</div>
-            <button class="btn btn-primary" ng-click="addAlert()">增加警告</button>
+	    	<h4>Checkbox</h4>
+            <div>Model: {{checkModel}}</div>
+            <div>Results: {{checkResults}}</div>
+            <div class="btn-group">
+            	<label class="btn btn-primary" ng-model="checkModel.left" uib-btn-checkbox>Left</label>
+            	<label class="btn btn-primary" ng-model="checkModel.middle" uib-btn-checkbox>Middle</label>
+            	<label class="btn btn-primary" ng-model="checkModel.right" uib-btn-checkbox>Right</label>
+            </div>
         </div>
     </div>
     <script src="/lib/jquery/dist/jquery.js"></script>
@@ -22,7 +28,7 @@
     <script src="/lib/angular-sanitize/angular-sanitize.js"></script>
     <script src="/lib/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
     <script src="/lib/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
-    <script src="01-alert.js"></script>
+    <script src="02-checkbox.js"></script>
 </body>
 
 </html>
