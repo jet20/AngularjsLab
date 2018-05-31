@@ -30,6 +30,7 @@
     "jquery-steps": "^1.1.0",
     "jquery-validation": "^1.17.0",
     "select2": "^4.0.6-rc.1",
+    "selectize": "^0.12.4",
     "ui-select": "^0.19.8"
   },
   "devDependencies": {
