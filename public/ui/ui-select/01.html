@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AngularJS UI Select</title>
+    <link rel="stylesheet" type="text/css" href="/lib/ui-select/dist/select.css">
+    <link rel="stylesheet" type="text/css" href="/lib/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body ng-app="app">
+    <div class="container">
+        <div ng-controller="ctrl">
+            <ui-select ng-model="selected">
+                <ui-select-match class="ui-select-match">
+                    <span ng-bind="$select.selected.name"></span>
+                </ui-select-match>
+                <ui-select-choices class="ui-select-choices" repeat="item in itemArray">
+                    <span ng-bind="item.name"></span>
+                </ui-select-choices>
+            </ui-select>
+        </div>
+    </div>
+  
+    <script src="/lib/angular/angular.js"></script>
+    <script src="/lib/angular-sanitize/angular-sanitize.js"></script>
+    <script src="/lib/ui-select/dist/select.js"></script>
+    <script src="01.js"></script>
+</body>
+
+</html>

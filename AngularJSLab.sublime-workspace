@@ -79,6 +79,18 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title></title>\n</head>\n<body>\n\n</body>\n</html>",
+			"file": "public/views/guid.html",
+			"file_size": 86,
+			"file_write_time": 131722115684675830,
+			"settings":
+			{
+				"buffer_size": 78,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -144,7 +156,9 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Lab/Angularjs/AngularjsLab"
+		"/D/Lab/Angularjs/AngularjsLab",
+		"/D/Lab/Angularjs/AngularjsLab/public",
+		"/D/Lab/Angularjs/AngularjsLab/public/views"
 	],
 	"file_history":
 	[
@@ -310,8 +324,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "public/views/guid.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
