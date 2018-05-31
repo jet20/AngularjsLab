@@ -25,7 +25,9 @@
     "angular-ui-bootstrap": "^2.5.6",
     "bootstrap": "^3.3.7",
     "express": "^4.16.3",
-    "jquery": "2"
+    "jquery": "2",
+    "jquery-steps": "^1.1.0",
+    "jquery-validation": "^1.17.0"
   },
   "devDependencies": {
     "browser-sync": "^2.24.4",
