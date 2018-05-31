@@ -1,0 +1,13 @@
+<div class="row clearfix" ng-controller="app.views.guide.selectEdition as vm">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            选择版本
+        </div>
+        <div class="panel-body">
+            <select ng-options="item.name for item in vm.editions" ng-model="vm.selected"></select>
+        </div>
+        <div class="panel-footer text-right">
+            <button class="btn btn-primary">Next</button>
+        </div>
+    </div>
+</div>
