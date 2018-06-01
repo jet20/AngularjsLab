@@ -1,0 +1,56 @@
+{
+  "_args": [
+    [
+      "angular@1.6.10",
+      "D:\\Lab\\Angularjs\\AngularjsLab"
+    ]
+  ],
+  "_from": "angular@1.6.10",
+  "_id": "angular@1.6.10",
+  "_inBundle": false,
+  "_integrity": "sha1-7tMICjTSnQ9oH/EZsYzilOP3SCY=",
+  "_location": "/angular",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "angular@1.6.10",
+    "name": "angular",
+    "escapedName": "angular",
+    "rawSpec": "1.6.10",
+    "saveSpec": null,
+    "fetchSpec": "1.6.10"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/angular/download/angular-1.6.10.tgz",
+  "_spec": "1.6.10",
+  "_where": "D:\\Lab\\Angularjs\\AngularjsLab",
+  "author": {
+    "name": "Angular Core Team",
+    "email": "angular-core+npm@google.com"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "description": "HTML enhanced for web apps",
+  "homepage": "http://angularjs.org",
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "client-side"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "angular",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.6.10"
+}

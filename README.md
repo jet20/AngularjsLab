@@ -40,6 +40,11 @@ AngularJSLab
 - Cookie
 - Promise
 - UI
+	- [angular-ui](http://angular-ui.github.io)
+		- [Sublime plugins](https://github.com/angular-ui/AngularJS-sublime-package)
+		- [UI Bootstrap](https://angular-ui.github.io/bootstrap/)
+			- 安装 UI Bootstrap
+
 - 扩展
 - 案例
 
@@ -249,5 +254,15 @@ npm i karma -gd
 			饼状图
 		Videogular
 
+# Angular UI
+
+## UI Bootstrap
+
+### 安装 UI Bootstrap
+```shell
+npm i angular-ui-bootstrap
+```
 
 
+### UI Bootstrap 文件和依赖
+ 
