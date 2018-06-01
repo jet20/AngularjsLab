@@ -1,28 +1,27 @@
 {
-  "_from": "@uirouter/angularjs@^1.0.18",
+  "_from": "@uirouter/angularjs@1.0.18",
   "_id": "@uirouter/angularjs@1.0.18",
   "_inBundle": false,
   "_integrity": "sha1-fsSBkhwMZtyTRCs0B3nXM6SbAhQ=",
   "_location": "/@uirouter/angularjs",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "@uirouter/angularjs@^1.0.18",
+    "raw": "@uirouter/angularjs@1.0.18",
     "name": "@uirouter/angularjs",
     "escapedName": "@uirouter%2fangularjs",
     "scope": "@uirouter",
-    "rawSpec": "^1.0.18",
+    "rawSpec": "1.0.18",
     "saveSpec": null,
-    "fetchSpec": "^1.0.18"
+    "fetchSpec": "1.0.18"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "http://registry.npm.taobao.org/@uirouter/angularjs/download/@uirouter/angularjs-1.0.18.tgz",
   "_shasum": "7ec481921c0c66dc93442b340779d733a49b0214",
-  "_spec": "@uirouter/angularjs@^1.0.18",
+  "_spec": "@uirouter/angularjs@1.0.18",
   "_where": "D:\\Lab\\Angularjs\\AngularjsLab",
   "bugs": {
     "url": "https://github.com/angular-ui/ui-router/issues"

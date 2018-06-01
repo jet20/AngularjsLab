@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "angular@1.6.10",
-      "D:\\Lab\\Angularjs\\AngularjsLab"
-    ]
-  ],
   "_from": "angular@1.6.10",
   "_id": "angular@1.6.10",
   "_inBundle": false,
@@ -25,7 +19,8 @@
     "/"
   ],
   "_resolved": "http://registry.npm.taobao.org/angular/download/angular-1.6.10.tgz",
-  "_spec": "1.6.10",
+  "_shasum": "eed3080a34d29d0f681ff119b18ce294e3f74826",
+  "_spec": "angular@1.6.10",
   "_where": "D:\\Lab\\Angularjs\\AngularjsLab",
   "author": {
     "name": "Angular Core Team",
@@ -34,6 +29,8 @@
   "bugs": {
     "url": "https://github.com/angular/angular.js/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "HTML enhanced for web apps",
   "homepage": "http://angularjs.org",
   "keywords": [

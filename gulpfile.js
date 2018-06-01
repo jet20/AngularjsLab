@@ -14,6 +14,7 @@ gulp.task('libs', function () {
         'angular-ui-bootstrap',
         '@uirouter',
         'ui-select',
+        'adminbsb-materialdesign',
         'bootstrap'
     ];
     var folders = [];

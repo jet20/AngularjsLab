@@ -1,27 +1,26 @@
 {
-  "_from": "angular-animate@1.6",
+  "_from": "angular-animate@1.6.10",
   "_id": "angular-animate@1.6.10",
   "_inBundle": false,
   "_integrity": "sha1-xSD200E3DjTgpiBgyZvPR7fX24w=",
   "_location": "/angular-animate",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "angular-animate@1.6",
+    "raw": "angular-animate@1.6.10",
     "name": "angular-animate",
     "escapedName": "angular-animate",
-    "rawSpec": "1.6",
+    "rawSpec": "1.6.10",
     "saveSpec": null,
-    "fetchSpec": "1.6"
+    "fetchSpec": "1.6.10"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "http://registry.npm.taobao.org/angular-animate/download/angular-animate-1.6.10.tgz",
   "_shasum": "c520f6d341370e34e0a62060c99bcf47b7d7db8c",
-  "_spec": "angular-animate@1.6",
+  "_spec": "angular-animate@1.6.10",
   "_where": "D:\\Lab\\Angularjs\\AngularjsLab",
   "author": {
     "name": "Angular Core Team",
