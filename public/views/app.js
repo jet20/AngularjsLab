@@ -10,6 +10,10 @@ app.config(function($stateProvider, $urlRouterProvider){
 		url: '/',
 		templateUrl: 'selectEdition.html'
 	});
+	$stateProvider.state('features', {
+		url: '/features',
+		templateUrl: 'features.html'
+	});
 
 	$urlRouterProvider.otherwise('/');
 });

@@ -1,4 +1,4 @@
-angular.module('app').controller('app.views.guide.selectEdition', function($scope){
+angular.module('app').controller('app.views.guide.selectEdition', function($scope, $location){
 	var vm = this;
 	
 	vm.editions = [{
@@ -13,4 +13,8 @@ angular.module('app').controller('app.views.guide.selectEdition', function($scop
 	}];
 
 	vm.selected = vm.editions[0];
+
+	vm.next = function() {
+		$location.href = 'features';
+	}
 });

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="app"  ng-controller="ctrl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}} - Filter - AngularJS - </title>
+  <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">{{title}}</a>
+    </div>
+  </nav>
+  <div class="container">
+    <ul>
+      <li ng-repeat="item in x | limitTo: 5">{{item.index}} / {{item.name}}</li>
+    </ul>
+  </div>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/lib/angular/angular.js"></script>
+  <script>
+    var app = angular.module('app', []);
+    app.controller('ctrl', function($scope){
+      $scope.title = 'limitTo 数组';
+
+      $scope.x = [];
+      for (var i = 0; i < 20; i++) {
+        $scope.x.push({index:i, name: 'x-'+i});
+      }
+    })
+  </script>
+</body>
+
+</html>

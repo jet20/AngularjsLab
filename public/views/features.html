@@ -1,0 +1,25 @@
+<div class="row clearfix" ng-controller="app.views.guide.features as vm">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="card">
+      <div class="header">
+        <h2>选择功能特性</h2>
+      </div>
+      <div class="body">
+        <div class="row clearfix" ng-repeat="feature in vm.features">
+          <div class="col-sm-9">
+            <label class="switch-title">{{feature.displayName}}</label>
+          </div>
+          <div class="switch col-sm-3">
+            <label>
+              <input type="checkbox" ng-model="feature.isEnable"><span class="lever"></span></label>
+          </div>
+        </div>
+        <div class="row clearfix">
+          <div class="col-sm-12 text-right">
+            <button class="btn btn-primary">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
