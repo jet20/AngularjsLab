@@ -1,0 +1,28 @@
+{
+  "name": "angularjs-lab",
+  "description": "AngularJS Lab",
+  "main": "app.js",
+  "authors": [
+    "jet2000"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angularjs"
+  ],
+  "homepage": "https://github.com/jet20/AngularjsLab",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "bootstrap": "3.3.7",
+    "angular": "1.6.10",
+    "bootstrap-select": "1.13.1",
+    "ng-bootstrap-select": "0.5.0"
+  }
+}

@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"bower",
+				"bowerroot"
+			],
+			[
+				"ng-re",
+				"ng-repeat\tAngularJS"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"ng-op",
+				"ng-options\tAngularJS"
+			],
+			[
 				"scope",
 				"$scope\tAngularJS"
 			],
@@ -80,15 +96,121 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title></title>\n</head>\n<body>\n\n</body>\n</html>",
-			"file": "public/views/guid.html",
-			"file_size": 86,
-			"file_write_time": 131722115684675830,
+			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 78,
+				"buffer_size": 243,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 3295,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1093,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/views/app.js",
+			"settings":
+			{
+				"buffer_size": 292,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/views/guide.html",
+			"settings":
+			{
+				"buffer_size": 1262,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/views/selectEdition.js",
+			"settings":
+			{
+				"buffer_size": 308,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1351,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "angular.module('app').controller('app.views.guide', function($scope){\n\t\n});\n\n",
+			"file": "public/views/guide.js",
+			"file_size": 138,
+			"file_write_time": 131723211153788097,
+			"settings":
+			{
+				"buffer_size": 77,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/lib/adminbsb-materialdesign/plugins/bootstrap-select/js/bootstrap-select.js",
+			"settings":
+			{
+				"buffer_size": 62661,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/views/selectEdition.html",
+			"settings":
+			{
+				"buffer_size": 1070,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<select ng-model=\"vm.selected\" ng-options=\"edition.name for edition in vm.editions\" selectpicker></select>",
+			"settings":
+			{
+				"buffer_size": 106,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 443,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 517,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -103,6 +225,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -158,18 +284,30 @@
 	[
 		"/D/Lab/Angularjs/AngularjsLab",
 		"/D/Lab/Angularjs/AngularjsLab/public",
+		"/D/Lab/Angularjs/AngularjsLab/public/lib",
+		"/D/Lab/Angularjs/AngularjsLab/public/lib/bootstrap-select",
+		"/D/Lab/Angularjs/AngularjsLab/public/lib/bootstrap-select/dist",
+		"/D/Lab/Angularjs/AngularjsLab/public/lib/bootstrap-select/dist/css",
+		"/D/Lab/Angularjs/AngularjsLab/public/lib/bootstrap-select/dist/js",
 		"/D/Lab/Angularjs/AngularjsLab/public/views"
 	],
 	"file_history":
 	[
-		"/D/dev/IThinker.UI/app.js",
+		"/D/Lab/Angularjs/AngularjsLab/package.json",
+		"/D/Lab/Angularjs/AngularjsLab/public/views/guide.html",
+		"/D/Lab/Angularjs/AngularjsLab/public/views/selectEdition.js",
+		"/D/Lab/Angularjs/AngularjsLab/public/lib/adminbsb-materialdesign/index.html",
 		"/D/Lab/Angularjs/AngularjsLab/app.js",
+		"/D/dev/IThinker.UI/IThinker.UI/gulpfile.js",
+		"/D/Lab/Angularjs/AngularjsLab/AngularJSLab.sublime-project",
+		"/D/Lab/Angularjs/AngularjsLab/gulpfile.js",
+		"/D/Lab/Angularjs/AngularjsLab/public/views/guid.html",
+		"/D/dev/IThinker.UI/app.js",
 		"/D/Lab/Angularjs/AngularjsLab/bower.json",
 		"/D/Lab/Angularjs/AngularjsLab/public/ui/bootstrap/02-checkbox.js",
 		"/D/Lab/Angularjs/AngularjsLab/public/index.html",
 		"/D/Lab/Angularjs/AngularjsLab/public/ui/bootstrap/01-alert.js",
 		"/D/Lab/Angularjs/AngularjsLab/node_modules/bootstrap/dist/css/bootstrap-theme.css",
-		"/D/Lab/Angularjs/AngularjsLab/package.json",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/D/Lab/Angularjs/AngularjsLab/yarn-error.log",
 		"/D/Lab/Angularjs/AngularjsLab/node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js",
@@ -282,14 +420,7 @@
 		"/D/Projects/iThinker.Exam/product/test/10.考生考官签到抽签.bat",
 		"/D/Projects/iThinker.Exam/product/test/12.考生抽签.bat",
 		"/D/Projects/iThinker.Exam/product/test/11.考生签到.bat",
-		"/D/Projects/iThinker.Exam/product/test/13.考官签到.bat",
-		"/D/Projects/iThinker.Exam/product/test/20.监督员.bat",
-		"/D/Projects/iThinker.Exam/product/test/配置客户端.bat",
-		"/D/Projects/iThinker.Exam/product/test/client/IThinker.Exam.WebTest.ConsoleApp.exe.config",
-		"/D/Projects/iThinker.Exam/dev/IThinker.Exam.WebTest/IThinker.Exam.WebTest.ConsoleApp/bin/00.考生考官签到抽签.bat",
-		"/E/Origin/面试系统所有文件/想客/想客计算机软件著作权申报/005-02-想客信息化面试管理软件（专业版）V6.0/申报材料/软件图片修改/当前版本须修改的图片清单.txt",
-		"/D/Schools/SeleniumSchools/SeleniumSchools/Ex01.cs",
-		"/D/Schools/SeleniumSchools/SeleniumSchools/Program.cs"
+		"/D/Projects/iThinker.Exam/product/test/13.考官签到.bat"
 	],
 	"find":
 	{
@@ -307,6 +438,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">\n"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -324,24 +456,323 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/views/guid.html",
+					"file": "app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 78,
+						"buffer_size": 243,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3294,
+								3294
+							]
+						],
+						"settings":
+						{
+							"parser": "github",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"target": "disk",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3990.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1093,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								467,
+								467
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/views/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/views/guide.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/views/selectEdition.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								776,
+								776
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/views/guide.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 77,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/lib/adminbsb-materialdesign/plugins/bootstrap-select/js/bootstrap-select.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 62661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public/views/selectEdition.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								512,
+								524
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
 							]
 						],
 						"settings":
@@ -352,7 +783,66 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								403,
+								403
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								504,
+								504
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -410,6 +900,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"index.html",
+				"public\\lib\\adminbsb-materialdesign\\index.html"
+			],
+			[
+				"blan",
+				"public\\lib\\adminbsb-materialdesign\\pages\\examples\\blank.html"
+			],
 			[
 				"guidh",
 				"Tests\\IThinker.Interview.Tests\\GuidTestHelper.cs"

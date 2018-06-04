@@ -1,13 +1,28 @@
 <div class="row clearfix" ng-controller="app.views.guide.selectEdition as vm">
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            选择版本
-        </div>
-        <div class="panel-body">
-            <select ng-options="item.name for item in vm.editions" ng-model="vm.selected"></select>
-        </div>
-        <div class="panel-footer text-right">
-            <button class="btn btn-primary">Next</button>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>选择版本</h2>
+            </div>
+            <div class="body">
+                <div class="row clearfix">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <div class="form-line">
+                                <ui-select ng-model="vm.selected" theme="bootstrap">
+                                  <ui-select-match>{{$select.selected.name}}</ui-select-match>
+                                  <ui-select-choices repeat="edition in vm.editions">
+                                    <div ng-bind="edition.name"></div>
+                                  </ui-select-choices>
+                                </ui-select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 text-right">
+                        <button class="btn btn-primary">Next</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

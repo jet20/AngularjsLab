@@ -3,21 +3,28 @@
 
 <head>
     <title>配置向导</title>
-    <link rel="stylesheet" type="text/css" href="/lib/bootstrap/dist/css/bootstrap.css">
+    <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/lib/ui-select/dist/select.css" rel="stylesheet">
+
+    <link href="/lib/adminbsb-materialdesign/css/style.css" rel="stylesheet">
+    <link href="/lib/adminbsb-materialdesign/css/themes/all-themes.css" rel="stylesheet" />
 </head>
 
-<body ng-app="app">
+<body ng-app="app" class="theme-blue">
     <div ng-controller="app.views.guide">
         <div ng-include="'guide-navbar.html'"></div>
-        <div class="container">
-            <div ui-view></div>
-        </div>
+        <section class="content">
+            <div class="container">
+                <div ui-view></div>
+            </div>
+        </section>
     </div>
     <script src="/lib/jquery/dist/jquery.js"></script>
     <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="/lib/jquery-steps/build/jquery.steps.js"></script>
     <script src="/lib/angular/angular.js"></script>
-    <script src="/lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/lib/angular-sanitize/angular-sanitize.js"></script>
+    <script src="/lib/@uirouter/angularjs/release/angular-ui-router.js"></script>
+    <script src="/lib/ui-select/dist/select.js"></script>
     <script src="app.js"></script>
     <script src="guide.js"></script>
     <script src="guide-navbar.js"></script>
