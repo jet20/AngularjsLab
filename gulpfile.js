@@ -28,6 +28,36 @@ gulp.task('npm:libs', function () {
         .pipe(gulp.dest(paths.libroot));
 });
 
+function npmLib(libName) {
+    return gulp.src(paths.noderoot + libName + "/**/*")
+        .pipe(gulp.dest(paths.libroot + libName));
+}
+
+function bowerLib(libName) {
+    return gulp.src(paths.bowerroot + libName + "/**/*")
+        .pipe(gulp.dest(paths.libroot + libName));
+}
+
+gulp.task('libs:jquery', function () {
+    return npmLib('jquery');
+});
+
+gulp.task('libs:bootstrap', function () {
+    return npmLib('bootstrap');
+});
+
+gulp.task('libs:angular', function () {
+    return npmLib('angular');
+});
+
+gulp.task('libs:angular-animate', function () {
+    return npmLib('angular-animate');
+});
+
+gulp.task('libs:angular-sanitize', function () {
+    return npmLib('angular-sanitize');
+});
+
 gulp.task('bower:libs', function () {
     var libs = [
         'ng-bootstrap-select'
@@ -40,4 +70,4 @@ gulp.task('bower:libs', function () {
         .pipe(gulp.dest(paths.libroot));
 });
 
-gulp.task('libs', ['npm:libs', 'bower:libs']);
+gulp.task('libs', ['libs:jquery', 'libs:bootstrap', "libs:angular"]);

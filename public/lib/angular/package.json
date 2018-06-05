@@ -1,26 +1,26 @@
 {
-  "_from": "angular@1.6.10",
-  "_id": "angular@1.6.10",
+  "_from": "angular@1.7.0",
+  "_id": "angular@1.7.0",
   "_inBundle": false,
-  "_integrity": "sha1-7tMICjTSnQ9oH/EZsYzilOP3SCY=",
+  "_integrity": "sha1-5F1nn8jYEECkiUx8zBak4a0KnKY=",
   "_location": "/angular",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "angular@1.6.10",
+    "raw": "angular@1.7.0",
     "name": "angular",
     "escapedName": "angular",
-    "rawSpec": "1.6.10",
+    "rawSpec": "1.7.0",
     "saveSpec": null,
-    "fetchSpec": "1.6.10"
+    "fetchSpec": "1.7.0"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "http://registry.npm.taobao.org/angular/download/angular-1.6.10.tgz",
-  "_shasum": "eed3080a34d29d0f681ff119b18ce294e3f74826",
-  "_spec": "angular@1.6.10",
+  "_resolved": "http://registry.npm.taobao.org/angular/download/angular-1.7.0.tgz",
+  "_shasum": "e45d679fc8d81040a4894c7ccc16a4e1ad0a9ca6",
+  "_spec": "angular@1.7.0",
   "_where": "D:\\Lab\\Angularjs\\AngularjsLab",
   "author": {
     "name": "Angular Core Team",
@@ -49,5 +49,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.6.10"
+  "version": "1.7.0"
 }

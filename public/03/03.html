@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ch03_03</title>
+  <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" ng-controller="loginController">
+    <div class="login-title text-center">
+      <h1>登录</h1>
+    </div>
+    <div class="form">
+      <div class="form-group">
+        <div class="input-group">
+          <span class="input-group-addon">
+              <span class="glyphicon glyphicon-user"></span>
+          </span>
+          <input type="text" ng-model="username" id="username" class="form-control" placeholder="用户名">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <span class="input-group-addon">
+              <span class="glyphicon glyphicon-lock"></span>
+          </span>
+          <input type="password" ng-model="password" id="password" class="form-control" placeholder="密码" ng-keyup="onPasswordKeyup($event)">
+        </div>
+      </div>
+      <div class="form-group form-actions">
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-4">
+            <button class="btn btn-primary" ng-click="login()">
+              <span class="glyphicon glyphicon-log-in" type="submit"></span> 登录
+            </button>
+            <button class="btn btn-warning" type="reset" ng-click="reset()">
+              <span class="glyphicon glyphicon-off"></span> 重置
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/lib/angular/angular.js"></script>
+  <script>
+  var app = angular.module('app', []);
+  app.controller('loginController', function($scope) {
+    $scope.reset = function() {
+      $scope.username = '';
+      $scope.password = '';
+
+      $('#username').focus();
+    }
+
+    $scope.login = function() {
+      if($scope.username == 'admin' && $scope.password == 'admin') {
+        alert('Login Success');
+      } else {
+        alert('Login Failure');
+      }
+    }
+
+    $scope.onPasswordKeyup = function($event) {
+      if($event.keyCode == 13) {
+        $scope.login();
+      }
+    }
+  })
+  </script>
+</body>
+
+</html>
