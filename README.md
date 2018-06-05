@@ -5,7 +5,12 @@ AngularJSLab
 
 来自《AngularJS入门和进阶》
 
-- 编辑器
+- 简介
+	- soruce： https://github.com/angular/angular.js.git
+	- homepage: https://code.angularjs.org
+	- npm: npm i angular(1.7.0)
+	- bower: bower install angular
+	- sublime text 3 plugins
 - nodejs
 	- node
 		- [安装 node](#user-content-安装-node)

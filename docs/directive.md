@@ -1,0 +1,21 @@
+# directive
+- 内置指令
+	- ng-app
+	- ng-model
+	- ng-init
+	- ng-controller
+	- ng-disabled
+		- ng-disabled="vm.isDisabled" vs ng-disabled="{{vm.isDisabled}}"
+	- ng-checked
+		- input type=checked ng-checked=vm.isChecked: 单向的
+		- input type=checked ng-model=vm.isChecked
+	- ng-change/ng-blur/ng-click
+	- ng-class vs class
+	- ng-show/ng-hide
+	- ng-bind
+	- ng-if
+	- ng-switch/ng-switch-when/ng-switch-default
+	- ng-repeat
+	- ng-href/ng-src
+	- ng-include
+

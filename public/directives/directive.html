@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="ctrl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>指令</title>
+  <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">指令</a>
+    </div>
+  </nav>
+  <div class="container">
+    <div>
+      <div>ng-disabled</div>
+      <div>
+        <input type="checked" ng-disabled="true">disabled
+      </div>
+      <div>
+        <input type="checked" ng-disabled="isDisabled">disabled
+      </div>
+      <div>
+        <input type="checked" ng-disabled="{{isDisabled}}">disabled
+      </div>
+    </div>
+  </div>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/lib/angular/angular.js"></script>
+  <script>
+    var app = angular.module('app', []);
+    app.controller('ctrl', function($scope){
+      $scope.isDisabled = true;
+    })
+  </script>
+</body>
+
+</html>
