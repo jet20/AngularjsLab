@@ -4,12 +4,40 @@
 		"selected_items":
 		[
 			[
-				"fe",
-				"feature"
+				"$sc",
+				"$scope\tAngularJS"
+			],
+			[
+				"ng-ke",
+				"ng-keyup\tAngularJS"
 			],
 			[
 				"ng-cl",
-				"ng-class\tAngularJS"
+				"ng-click\tAngularJS"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"angul",
+				"angular"
+			],
+			[
+				"an",
+				"angular"
+			],
+			[
+				"node",
+				"nodeLib"
+			],
+			[
+				"li",
+				"libName"
+			],
+			[
+				"fe",
+				"feature"
 			],
 			[
 				"$loc",
@@ -18,10 +46,6 @@
 			[
 				"ng",
 				"ng-checked\tAngularJS"
-			],
-			[
-				"li",
-				"limitTo"
 			],
 			[
 				"for",
@@ -140,134 +164,83 @@
 	"buffers":
 	[
 		{
-			"file": "public/filters/json.html",
+			"file": "docs/event.md",
 			"settings":
 			{
-				"buffer_size": 973,
+				"buffer_size": 53,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public/index.html",
+			"file": "docs/jshint.md",
 			"settings":
 			{
-				"buffer_size": 1092,
+				"buffer_size": 1321,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public/views/guide.html",
+			"file": ".jshintrc",
 			"settings":
 			{
-				"buffer_size": 1261,
+				"buffer_size": 52,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public/filter/countdown.js",
+			"file": "public/03/03.html",
 			"settings":
 			{
-				"buffer_size": 125,
+				"buffer_size": 2335,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/directives/directive.html",
-			"settings":
-			{
-				"buffer_size": 1085,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "docs/directive.md",
-			"settings":
-			{
-				"buffer_size": 444,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/01.Source/Dashboard/AdminBSBMaterialDesign/README.md",
-			"settings":
-			{
-				"buffer_size": 2496,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 3474,
+				"buffer_size": 3220,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/D/dev/AdminBSBMaterialDesign/documentation/templates/plugins.html",
+			"file": "docs/gulp.md",
 			"settings":
 			{
-				"buffer_size": 5474,
-				"encoding": "UTF-8 with BOM",
+				"buffer_size": 2197,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "gulp"
+			}
+		},
+		{
+			"file": "docs/Jasmine.md",
+			"settings":
+			{
+				"buffer_size": 519,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spec/jasmine_examples/PlayerSpec.js",
+			"settings":
+			{
+				"buffer_size": 1646,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/D/dev/AdminBSBMaterialDesign/compilerconfig.json",
+			"file": "public/index.html",
 			"settings":
 			{
-				"buffer_size": 2214,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/views/selectEdition.html",
-			"settings":
-			{
-				"buffer_size": 1242,
+				"buffer_size": 1162,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/views/features.html",
-			"settings":
-			{
-				"buffer_size": 836,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/views/features.js",
-			"settings":
-			{
-				"buffer_size": 555,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/lib/adminbsb-materialdesign/pages/forms/basic-form-elements.html",
-			"settings":
-			{
-				"buffer_size": 94983,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/lib/adminbsb-materialdesign/css/style.css",
-			"settings":
-			{
-				"buffer_size": 206053,
 				"line_ending": "Windows"
 			}
 		}
@@ -284,16 +257,28 @@
 		"selected_items":
 		[
 			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Snippet: h2\t",
+				"Snippet: h2"
+			],
+			[
+				"Snippet: h1",
+				"Snippet: h1"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
 				"preview",
 				"Markdown Preview: Preview in Browser"
 			],
 			[
 				"prev",
 				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"sql",
@@ -328,7 +313,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 95.0,
 		"history":
 		[
 		]
@@ -345,10 +330,44 @@
 	"expanded_folders":
 	[
 		"/D/Lab/Angularjs/AngularjsLab",
-		"/D/Lab/Angularjs/AngularjsLab/docs"
+		"/D/Lab/Angularjs/AngularjsLab/lib",
+		"/D/Lab/Angularjs/AngularjsLab/lib/jasmine_examples",
+		"/D/Lab/Angularjs/AngularjsLab/spec",
+		"/D/Lab/Angularjs/AngularjsLab/spec/helpers",
+		"/D/Lab/Angularjs/AngularjsLab/spec/helpers/jasmine_examples",
+		"/D/Lab/Angularjs/AngularjsLab/spec/jasmine_examples",
+		"/D/Lab/Angularjs/AngularjsLab/spec/support"
 	],
 	"file_history":
 	[
+		"/D/Lab/Angularjs/AngularjsLab/docs/uglify.md",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/h1.sublime-snippet",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/h2.sublime-snippet",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/md-code.sublime-snippet",
+		"/D/Lab/Angularjs/AngularjsLab/docs/index.md",
+		"/D/Lab/Angularjs/AngularjsLab/public/lib/adminbsb-materialdesign/js/demo2.js",
+		"/D/Lab/Angularjs/AngularjsLab/public/lib/adminbsb-materialdesign/js/helpers.js",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/D/dev/IThinker.UI/ReadMe.md",
+		"/D/Lab/Angularjs/AngularjsLab/gulpfile.js",
+		"/D/Lab/Angularjs/AngularjsLab/bower.json",
+		"/D/Lab/Angularjs/AngularjsLab/package.json",
+		"/D/Lab/Angularjs/AngularjsLab/public/filters/json.html",
+		"/D/Lab/Angularjs/AngularjsLab/public/index.html",
+		"/D/Lab/Angularjs/AngularjsLab/public/views/guide.html",
+		"/D/Lab/Angularjs/AngularjsLab/public/filter/countdown.js",
+		"/D/Lab/Angularjs/AngularjsLab/public/directives/directive.html",
+		"/D/Lab/Angularjs/AngularjsLab/docs/directive.md",
+		"/E/01.Source/Dashboard/AdminBSBMaterialDesign/README.md",
+		"/D/Lab/Angularjs/AngularjsLab/README.md",
+		"/D/dev/AdminBSBMaterialDesign/documentation/templates/plugins.html",
+		"/D/dev/AdminBSBMaterialDesign/compilerconfig.json",
+		"/D/Lab/Angularjs/AngularjsLab/public/views/selectEdition.html",
+		"/D/Lab/Angularjs/AngularjsLab/public/views/features.html",
+		"/D/Lab/Angularjs/AngularjsLab/public/views/features.js",
+		"/D/Lab/Angularjs/AngularjsLab/public/lib/adminbsb-materialdesign/pages/forms/basic-form-elements.html",
+		"/D/Lab/Angularjs/AngularjsLab/public/lib/adminbsb-materialdesign/css/style.css",
 		"/D/Lab/Angularjs/AngularjsLab/public/directives/serverTime.js",
 		"/E/01.Source/Dashboard/AdminBSBMaterialDesign/compilerconfig.json",
 		"/E/01.Source/Dashboard/AdminBSBMaterialDesign/bower.json",
@@ -356,10 +375,8 @@
 		"/D/Lab/Angularjs/AngularjsLab/public/views/selectEdition.js",
 		"/D/Lab/Angularjs/AngularjsLab/public/lib/adminbsb-materialdesign/index.html",
 		"/D/Lab/Angularjs/AngularjsLab/public/views/app.js",
-		"/D/Lab/Angularjs/AngularjsLab/public/views/features.js",
 		"/D/Lab/Angularjs/AngularjsLab/public/filters/limitTo-01.html",
 		"/D/Lab/Angularjs/AngularjsLab/public/filters/my-filters/chineseCurrency.js",
-		"/D/Lab/Angularjs/AngularjsLab/public/index.html",
 		"/D/Lab/Angularjs/AngularjsLab/public/filters/lowercase-uppercase.html",
 		"/D/Lab/Angularjs/AngularjsLab/public/filters/number.html",
 		"/D/Lab/Angularjs/AngularjsLab/public/filters/currency/currency.html",
@@ -367,16 +384,9 @@
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/.jsbeautifyrc",
 		"/D/Lab/Angularjs/AngularjsLab/AngularJSLab.sublime-project",
 		"/D/Lab/Angularjs/AngularjsLab/app.js",
-		"/D/Lab/Angularjs/AngularjsLab/README.md",
-		"/D/Lab/Angularjs/AngularjsLab/gulpfile.js",
-		"/D/Lab/Angularjs/AngularjsLab/public/lib/adminbsb-materialdesign/pages/forms/basic-form-elements.html",
-		"/D/Lab/Angularjs/AngularjsLab/public/views/guide.html",
-		"/D/Lab/Angularjs/AngularjsLab/package.json",
 		"/D/Lab/Angularjs/AngularjsLab/public/views/guide.js",
 		"/D/Lab/Angularjs/AngularjsLab/public/lib/adminbsb-materialdesign/plugins/bootstrap-select/js/bootstrap-select.js",
-		"/D/Lab/Angularjs/AngularjsLab/public/views/selectEdition.html",
 		"/D/Lab/Angularjs/AngularjsLab/docs/filter.md",
-		"/D/Lab/Angularjs/AngularjsLab/bower.json",
 		"/D/dev/IThinker.UI/IThinker.UI/gulpfile.js",
 		"/D/Lab/Angularjs/AngularjsLab/public/views/guid.html",
 		"/D/dev/IThinker.UI/app.js",
@@ -457,26 +467,7 @@
 		"/D/dev/IThinker.Interview/CoreAngularZero/3.6.0/aspnet-core/build/outputs/Host/web.config",
 		"/D/dev/IThinker.Interview/CoreSpaZero/3.6.0/aspnet-core/src/IThinker.Interview.EntityFrameworkCore/IThinker.Interview.EntityFrameworkCore.csproj",
 		"/D/dev/IThinker.Interview/CoreSpaZero/3.6.0/aspnet-core/src/IThinker.Interview.Web.Mvc/appsettings.json",
-		"/D/dev/IThinker.Interview/CoreSpaZero/3.6.0/aspnet-core/src/IThinker.Interview.Web.Mvc/web.config",
-		"/D/dev/IThinker.Interview/CoreAngularZero/3.6.0/angular/package.json",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/hero.ts",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/heroes/heroes.component.html",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/hero.service.ts",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/messages/messages.component.ts",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/messages/messages.component.html",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/app-routing.module.ts",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/app.component.html",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/dashboard/dashboard.component.css",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/dashboard/dashboard.component.html",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/dashboard/dashboard.component.ts",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/message.service.ts",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.html",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.ts",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/heroes/heroes.component.css",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/app.module.ts",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/mock-heroes.ts",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/heroes/heroes.component.ts",
-		"/D/Schools/Angular/angular-tour-of-heroes/src/app/app.component.ts"
+		"/D/dev/IThinker.Interview/CoreSpaZero/3.6.0/aspnet-core/src/IThinker.Interview.Web.Mvc/web.config"
 	],
 	"find":
 	{
@@ -495,6 +486,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"onPassworkKeyup",
+			"nodeLib",
 			"demo-switch-title",
 			"SWITCH BUTTON",
 			"SELECT",
@@ -506,6 +499,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"onPasswordKeyup",
+			"npmLib"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -516,64 +511,31 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/filters/json.html",
+					"file": "docs/event.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 973,
+						"buffer_size": 53,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								507,
-								507
+								53,
+								53
 							]
 						],
 						"settings":
 						{
+							"auto_name": "",
 							"is_init_dirty_state": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1092,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								228,
-								228
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -583,87 +545,55 @@
 					"type": "text"
 				},
 				{
+					"buffer": 1,
+					"file": "docs/jshint.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								929,
+								929
+							]
+						],
+						"settings":
+						{
+							"parser": "github",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"target": "browser"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
 					"buffer": 2,
-					"file": "public/views/guide.html",
+					"file": ".jshintrc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1261,
+						"buffer_size": 52,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1244,
-								1244
+								46,
+								46
 							]
 						],
 						"settings":
 						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "public/filter/countdown.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 125,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								125,
-								125
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "public/directives/directive.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1085,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								723,
-								723
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -675,120 +605,119 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "docs/directive.md",
+					"buffer": 3,
+					"file": "public/03/03.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 444,
+						"buffer_size": 2335,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								397,
-								397
+								1644,
+								1644
 							]
 						],
 						"settings":
 						{
 							"is_init_dirty_state": false,
 							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/E/01.Source/Dashboard/AdminBSBMaterialDesign/README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2496,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								886,
-								886
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"parser": "github",
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"target": "browser"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
+					"buffer": 4,
 					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3474,
+						"buffer_size": 3220,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								354,
-								354
+								1340,
+								1340
 							]
 						],
 						"settings":
 						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
+							"parser": "github",
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"target": "disk",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 684.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/D/dev/AdminBSBMaterialDesign/documentation/templates/plugins.html",
+					"buffer": 5,
+					"file": "docs/gulp.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5474,
+						"buffer_size": 2197,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								290,
-								290
+								1765,
+								1765
 							]
 						],
 						"settings":
 						{
-							"is_init_dirty_state": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"auto_name": "gulp",
+							"parser": "github",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"target": "browser"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1112.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "docs/Jasmine.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 519,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								519,
+								519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -798,26 +727,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "/D/dev/AdminBSBMaterialDesign/compilerconfig.json",
-					"semi_transient": false,
+					"buffer": 7,
+					"file": "spec/jasmine_examples/PlayerSpec.js",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2214,
+						"buffer_size": 1646,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								210,
-								210
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"is_init_dirty_state": false,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -827,52 +758,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "public/views/selectEdition.html",
+					"buffer": 8,
+					"file": "public/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1242,
+						"buffer_size": 1162,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								967,
-								967
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "public/views/features.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 836,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								809,
-								809
+								173,
+								173
 							]
 						],
 						"settings":
@@ -880,108 +779,14 @@
 							"is_init_dirty_state": false,
 							"origin_encoding": "UTF-8",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "public/views/features.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 555,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								544,
-								544
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "public/lib/adminbsb-materialdesign/pages/forms/basic-form-elements.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 94983,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								81006,
-								81006
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 26330.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "public/lib/adminbsb-materialdesign/css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 206053,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								39078,
-								39119
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 40853.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -1030,7 +835,7 @@
 	"project": "AngularJSLab.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 73.0
 	},
 	"save_all_on_build": true,
 	"select_file":

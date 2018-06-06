@@ -1,35 +1,32 @@
-AngularJSLab
------------------------------------------------------------------------------------------------------------------------
-
-# AngularJS的内容
+# AngularJS
 
 来自《AngularJS入门和进阶》
 
-- 简介
-	- soruce： https://github.com/angular/angular.js.git
-	- homepage: https://code.angularjs.org
-	- npm: npm i angular(1.7.0)
-	- bower: bower install angular
-	- sublime text 3 plugins
+- AngularJS简介
 - nodejs
 	- node
-		- [安装 node](#user-content-安装-node)
+		- 官网: https://nodejs.org/zh-cn/
+		- 安装 node: 截止到2018-5-31（六一前一天）官方推荐版本： 8.11.2
 	- npm
-		- [安装 npm](#user-content-安装-npm)
-		- [安装 cnpm](#user-content-安装-cnpm)
-		- [npm 指令](#user-content-npm-指令)
-	- [bower](#user-content-bower)
-		- [bower 指令](#user-content-bower-指令)
+		- 安装 node自动安装npm。当前版本: 5.6.0
+		- [安装 cnpm](https://npm.taobao.org/)
+			- 由于npm在国外，经常连接不到。 所以安装cnpm。
+			- npm install cnpm --registry=https://registry.npm.taobao.org -g 
+		- npm 指令
+	- bower
+		- bower已经不维护了，但一些项目还可能用到。
+		- bower 指令
+			- init
+			- install
+			- uninstall
+			- list
+			- info
+			- search
+			- update
 	- gulp及插件
 		- 安装 gulp
-		- jshint
-		- uglify
-		- gulp-changed
-		- gulp-plumber
-		- gulp-imagemin
-		- less
-		- scss
-		- browser-sync
+			- npm i gulp --save-dev
+
 	- test
 - 数据绑定
 - 控制器
@@ -52,27 +49,27 @@ AngularJSLab
 
 - 扩展
 - 案例
+- 入门指南: https://code.angularjs.org/1.7.0/docs/tutorial
 
 
-## 安装 node
-截止到2018-5-31（六一前一天）官方推荐版本： 8.11.2
+AngularJS简介
+-----------------------------------------------------------------------------------------------------------------------
 
-## 安装 npm
-安装 node自动安装npm。当前版本: 5.6.0
+- soruce： https://github.com/angular/angular.js.git
+- homepage: https://code.angularjs.org
+- npm: npm i angular(1.7.0)
+- bower: bower install angular
+- sublime text 3 plugins
 
 
-## 安装 cnpm
-由于npm在国外，经常连接不到。 所以安装cnpm。
-
-```shell
-npm install cnpm --registry=https://registry.npm.taobao.org -g 
-```
-
+npm
+-----------------------------------------------------------------------------------------------------------------------
 ## npm 指令
 - help
 - init
 - install
 - uninstall	
+- rm
 - search
 - info
 - update
@@ -84,8 +81,16 @@ npm install cnpm --registry=https://registry.npm.taobao.org -g
 - restart
 - test
 
-## bower
-bower已经不维护了，但一些项目还可能用到。
+
+gulp
+-----------------------------------------------------------------------------------------------------------------------
+
+官网 https://gulpjs.com/
+
+
+
+
+
 
 
 ## bower 指令
@@ -97,49 +102,6 @@ bower已经不维护了，但一些项目还可能用到。
 - search
 - update
 
-
-## 安装 gulp
-
-```shell
-npm i gulp -gd 
-npm i gulp --save-dev -d
-```
-
-# jshint
-
-[官网](http://jshint.com)
-
-## 安装 jshint
-
-```shell
-npm i jshint -gd 
-npm i jshint -d --save-dev
-```
-
-## 使用 jshint
-
-安装 gulp-jshint
-
-```shell
-npm i gulp-jshint -gd
-npm i gulp-jshint --save-dev -d
-```
-
-### uglify
-
-uglify用于压缩代码的。 安装 uglify
-
-```shell
-npm i uglify-js -gd
-npm i uglify-js --save-dev -d
-```
-
-安装 gulp-uglify
-
-```shell
-npm i gulp-uglify -gd
-npm i gulp-uglify --save-dev -d
-```
 
 ### gulp-changed
 
