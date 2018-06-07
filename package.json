@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "aur": "node angularjs-up-running/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git+https://github.com/jet20/AngularjsLab.git",
@@ -46,6 +47,9 @@
     "gulp-plumber": "1.2.0",
     "gulp-uglify": "3.0.0",
     "jshint": "2.9.5",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
     "less": "3.0.4",
     "uglify-js": "3.3.27"
   },
