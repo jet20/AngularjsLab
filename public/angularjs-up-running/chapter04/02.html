@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="notesApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>表单02</title>
+  <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" ng-controller="MainCtrl as ctrl">
+    <input type="text" ng-model="ctrl.username" class="form-control"> 
+    <input type="password" ng-model="ctrl.password" class="form-control"> 
+    <button ng-click="ctrl.change()" class="btn btn-default">修改值</button>
+    <button ng-click="ctrl.submit()" class="btn btn-primary">提交</button>
+  </div>
+
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/lib/angular/angular.js"></script>
+  <script>
+  angular.module('notesApp', [])
+    .controller('MainCtrl', [function() {
+      var self = this;
+      
+      self.change = function() {
+        self.username = "changed";
+        self.password = "password"
+      };
+
+      self.submit = function() {
+        console.log("单击提交按钮 ", self.username, self.password);
+      };
+    }]);
+  </script>
+</body>
+
+</html>

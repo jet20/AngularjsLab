@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="notesApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" ng-controller="MainCtrl as ctrl">
+    <form name="myForm" ng-submit="ctrl.submit()">
+      <input type="text" name="username" ng-model="ctrl.user.username" class="form-control" required ng-minlength="4">
+      <textarea name="address" ng-model="ctrl.user.address" class="form-control" rows="4"></textarea>
+      <div>
+        <input type="checkbox" id="agree" name="agree" ng-model="ctrl.user.agree">
+        <label for="agree">同意吗</label>
+      </div>
+      <div>
+        <input type="checkbox" id="agree2" name="agree2" ng-model="ctrl.user.agree2" ng-true-value="同意" ng-false-value="不同意">
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary" ng-disabled="myForm.$invalid">提交</button>
+      </div>
+    </form>
+  </div>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/lib/angular/angular.js"></script>
+  <script>
+  angular.module('notesApp', [])
+    .controller('MainCtrl', [function() {
+      var self = this;
+
+      self.submit = function() {
+        console.log("单击提交按钮 ", self.user);
+      };
+    }]);
+  </script>
+</body>
+
+</html>

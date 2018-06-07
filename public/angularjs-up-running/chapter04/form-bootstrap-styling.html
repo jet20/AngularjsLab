@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="notesApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" ng-controller="MainCtrl as ctrl">
+    <form name="myForm" ng-submit="ctrl.submit()">
+      <div ng-class="{'has-error':myForm.username.$invalid, 'has-success':myForm.username.$valid}">
+        <input type="text" id="username" name="username" ng-model="ctrl.user.username" class="form-control" required ng-minlength="4" placeholder="用户名">
+        <div class="valid-feedback" ng-show="myForm.username.$error.required">
+          必填的
+        </div>
+        <div class="valid-feedback" ng-show="myForm.username.$error.minlength">
+          至少4个字符
+        </div>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary" ng-disabled="myForm.$invalid">提交</button>
+      </div>
+    </form>
+  </div>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/lib/angular/angular.js"></script>
+  <script>
+  angular.module('notesApp', [])
+    .controller('MainCtrl', [function() {
+      var self = this;
+
+      self.submit = function() {
+        console.log("单击提交按钮 ", self.user);
+      };
+    }]);
+  </script>
+</body>
+
+</html>

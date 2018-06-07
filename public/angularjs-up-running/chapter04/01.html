@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="notesApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>表单01</title>
+  <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" ng-controller="MainCtrl as ctrl">
+    <input type="text" ng-model="ctrl.username" class="form-control"> 
+    你输入了: {{ctrl.username}}
+  </div>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/lib/angular/angular.js"></script>
+  <script>
+  angular.module('notesApp', [])
+    .controller('MainCtrl', [function() {
+      this.username = 'nothing';
+    }]);
+  </script>
+</body>
+
+</html>

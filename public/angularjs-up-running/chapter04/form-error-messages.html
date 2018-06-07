@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="notesApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" ng-controller="MainCtrl as ctrl">
+    <form name="myForm" ng-submit="ctrl.submit()">
+      <input type="text" name="username" ng-model="ctrl.user.username" class="form-control" required ng-minlength="4">
+      <span ng-show="myForm.username.$error.required">This is required field</span>
+      <span ng-show="myForm.username.$error.minlength">Minimum length required is 4</span>
+      <span ng-show="myForm.username.$invalid">The field is invalid</span>
+      <input type="password" name="password" ng-model="ctrl.user.password" class="form-control" required>
+      <span ng-show="myForm.password.$error.required">This is required field</span>
+      <div>
+        <button type="submit" class="btn btn-primary" ng-disabled="myForm.$invalid">提交</button>
+      </div>
+    </form>
+  </div>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/lib/angular/angular.js"></script>
+  <script>
+  angular.module('notesApp', [])
+    .controller('MainCtrl', [function() {
+      var self = this;
+
+      self.submit = function() {
+        console.log("单击提交按钮 ", self.user);
+      };
+    }]);
+  </script>
+</body>
+
+</html>
